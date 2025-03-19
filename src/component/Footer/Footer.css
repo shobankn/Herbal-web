@@ -1,0 +1,204 @@
+.footer {
+  background-color: #1D2939;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 84px 80px !important; /* Fixed syntax */
+  width: 100% !important;
+}
+
+/* Footer container */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin-top:-10px;
+  padding: 0 20px;
+}
+
+/* Footer branding */
+.footer-brand {
+  max-width: 250px;
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between logo & text */
+  flex-wrap: wrap; /* Ensures responsive wrapping */
+}
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+/* Text adjustments */
+.footer h3 {
+  margin-top: 20px;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px !important;
+  font-weight: 500;
+  position: relative;
+  left: 100px;
+  top: -100px;
+}
+
+/* Fix incorrect font-weight issue */
+.footer h4 {
+  font-size: 24px !important;
+  font-weight: 500; /* Removed 'px' from font-weight */
+  font-family: 'Roboto', sans-serif;
+  color: #19B65B;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 16px;
+  color: #ccc;
+  font-weight: 500; /* Removed duplicate font-size */
+  line-height: 150%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Footer links */
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #19B65B;
+}
+
+/* Newsletter */
+.footer-newsletter .newsletter-box {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-newsletter input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  flex-grow: 1;
+  width: 208px;
+  height: 40px;
+  background-color: #19B65B33;
+}
+
+.footer-newsletter button {
+  background-color: #519C0C !important;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400; /* Removed extra 'px' */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 103px;
+  height: 39px;
+}
+
+/* Footer icons */
+.footer-icons {
+  margin-top: 15px;
+}
+
+.footer-icons svg {
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-icons svg:hover {
+  color: #19B65B;
+}
+
+/* Footer bottom */
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+}
+
+/* Footer policy */
+.footer-policy a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #D0D5DD;
+  transition: 0.3s;
+  font-family: "Roboto";
+}
+
+.footer-policy a:hover {
+  color: #2ecb4f;
+}
+
+/* 🔹 RESPONSIVENESS */
+@media (max-width: 992px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .footer-brand {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-logo {
+      margin-top: 20px;
+  }
+
+  .footer h3 {
+      position: static; /* Fix text alignment */
+      margin-top: 10px;
+      text-align: center;
+      left: 0;
+      top: 0;
+  }
+
+  .footer-links,
+  .footer-contact,
+  .footer-newsletter {
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-newsletter .newsletter-box {
+      flex-direction: column;
+  }
+
+  .footer-newsletter button {
+      width: 100%;
+  }
+
+  .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer h3 {
+      font-size: 20px !important; /* Adjust heading size for small screens */
+  }
+
+  .footer p {
+      font-size: 14px;
+  }
+}

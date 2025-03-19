@@ -1,0 +1,484 @@
+.hero-section {
+    background: linear-gradient(to bottom, rgba(82, 156, 12, 0.215),rgba(255, 255, 255, 1));
+    /* opacity: 0.5; */
+        /* background: linear-gradient(to right, #519C0C, #FFFFFF); */
+
+   
+
+  }
+  
+  .text-section h1 {
+    font-weight: bold;
+    color: #18467F;
+    opacity: 2 !important;
+  }
+  
+  .text-section p {
+    font-size: 18px;
+    color: #4D4D4D;
+    margin-bottom: 20px;
+  }
+  
+   .btn1 {
+    margin-right: 10px;
+    background-color: #519C0C;
+    border-radius: 52px !important;
+    color: #eef5e4;
+    border:none;
+    padding: 14px 24px 14px 24px;
+    gap:8px;
+    width: 40%;
+    white-space: nowrap;
+    font-size:0.9em;
+    
+ 
+  }
+  .btn2{
+    color:#519C0C;
+    background-color: #519C0C1F;
+    border: none;
+    border-radius: 52px;
+    padding: 14px 24px 14px 24px;
+    width: 30%;
+    white-space: nowrap;
+    font-size: 0.9em;
+
+  
+  }
+
+
+  @media (max-width: 1000px) {
+   .btn1,.btn2{
+    width:auto;
+   }
+
+    
+  }
+
+  @media (max-width:600px) {
+    .responsive-heading{
+        margin-top: 30px;
+    }
+    .btn1,.btn2{
+        width:auto;
+        margin-bottom: 10px;
+
+       }
+    
+  }
+
+
+  /* wel module */
+  .container {
+    /* max-width: 1100px; */
+    margin: auto;
+  }
+  
+  /* Headings */
+  .main-heading {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #18467F;
+    text-align: start;
+    margin-bottom: 15px;;
+    padding: 5px;
+    
+  
+  }
+  
+  .why-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #18467F;
+   
+  }
+  
+  /* Sub Text */
+  .sub-heading {
+    font-size: 1rem;
+    color: #4D4D4D;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-weight: 400px !important;
+    
+   
+  }
+
+  
+  /* @media (max-width:1000px) {
+    .mainsubheading{
+        padding:0 150px;
+        margin-bottom: 60px !important;
+      }
+    
+  } */
+  
+  /* Features */
+  .feature-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #18467F;
+  }
+  
+  .feature-text {
+    font-size: 0.9rem;
+    color: #4D4D4D;
+  }
+  
+  /* CTA */
+  .cta-link {
+    color: rgba(24, 70, 127, 1) !important;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .cta-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .main-heading {
+      font-size: 1.5rem;
+    }
+  
+    .why-heading {
+      font-size: 1.3rem;
+      margin-top: 20px;;
+    }
+  
+    .feature-title {
+      font-size: 0.95rem;
+    }
+  
+    .feature-text {
+      font-size: 0.85rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main-heading {
+      font-size: 1.3rem;
+    }
+  
+    .sub-heading {
+      font-size: 0.9rem;
+    }
+  
+    .feature-title {
+      font-size: 0.9rem;
+    }
+  
+    .feature-text {
+      font-size: 0.8rem;
+    }
+  }
+  
+  
+ 
+  /* Homeopathic-Treatment-2.png */
+
+  .container {
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  /* Headings */
+  /* .main-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #18467F;
+  } */
+  
+  /* .sub-heading {
+    font-size: 1rem;
+    color: #4D4D4D;
+    margin-bottom: 20px;
+  } */
+  
+  /* Section Titles */
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #18467F;
+  }
+  
+  .section-text {
+    font-size: 1rem;
+    color: #4D4D4D;
+    margin-bottom: 10px;
+  }
+  
+  /* Call-to-Action Link */
+  .cta-link2 {
+    color: #519C0C;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .cta-link2:hover {
+    text-decoration: underline;
+  }
+  
+  /* Buttons */
+  .start-learning-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color:#519C0C33;
+    border:none;
+    color: #519C0C;
+  }
+  
+
+  
+  .btn-light {
+    /* background-color: #EAF6E8; */
+    color: #519C0C;
+    border: none;
+  }
+  
+  .btn-light:hover {
+    background-color: #D4E9D2;
+  }
+  
+  /* Image Wrapper */
+  .image-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-wrapper img {
+    border-radius: 15px;
+    max-width: 100%;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+  
+  
+    .section-title {
+      font-size: 1.3rem;
+    }
+  
+    .start-learning-button {
+      width: 100%;
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+   
+  
+    .section-text {
+      font-size: 0.9rem;
+    }
+  }
+
+
+  /* tttt */
+  /* Container */
+  .testimonial-container {
+    background: rgba(81, 156, 12, 1);
+    color: white;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.testimonial-text {
+    width: 100%;
+    max-width: 500px;
+}
+
+.stars {
+    color: gold;
+    font-size: 1.5rem;
+}
+
+.quote {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Maintain consistent spacing */
+  max-width: 100%; /* Ensure it doesn't exceed the container */
+  flex-wrap: wrap; /* Allows text to wrap on small screens */
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  flex-shrink: 0; /* Prevents image from shrinking */
+}
+
+.profile-text {
+  flex-grow: 1; /* Allows text to take up available space */
+  min-width: 0; /* Prevents text from breaking layout */
+  overflow: hidden; /* Avoids text overflow */
+  text-overflow: ellipsis; /* Shows "..." if text overflows */
+  white-space: nowrap; /* Keeps text in one line until necessary */
+}
+
+.profile h4 {
+  margin: 0;
+  font-size: clamp(1rem, 2vw, 1.2rem); /* Adjust font size dynamically */
+}
+
+.profile p {
+  margin: 0;
+  font-size: clamp(0.8rem, 1.5vw, 1rem); /* Adjust font size dynamically */
+  color: #dcdcdc;
+}
+
+
+
+.navigation {
+    /* margin-top: 20px; */
+  
+}
+.button-container {
+  display: flex;
+  align-items: center; /* Keep buttons vertically aligned */
+  justify-content: center; /* Keep buttons centered */
+  gap: 15px; /* Add spacing between buttons */
+  margin-top: 10px; /* Adjust spacing from other elements */
+}
+
+.arrow-button {
+  background: rgba(24, 70, 127, 1);
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 50px; /* Uniform width */
+  height: 50px; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0; /* Prevents shrinking */
+}
+
+/* Adjust arrow image size */
+.arrow-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* Hover effect */
+.arrow-button:hover {
+  transform: scale(1.1);
+  background: rgba(30, 85, 150, 1);
+}
+
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    width: 35%;
+    max-width: 100%;
+    height: auto;
+}
+
+.Person1, .Person2, .Person3, .Person4, .Person5 {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.Person1{
+  left:-100px;
+  top:60px;
+}
+.Person2{
+  right:300px;
+  top:190px;
+}
+
+.Person3{
+  left:90px;
+}
+
+.Person4{
+  left:90px;
+}
+.Person5{
+  right:-160px;
+}
+
+.shadowcontainer{
+  position: relative;
+}
+/* container shadow */
+
+
+
+@media (max-width: 1024px) {
+    .testimonial-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .testimonial-text {
+        width: 90%;
+        max-width: 400px;
+    }
+    
+    .image-grid {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonial-text {
+        width: 100%;
+    }
+    
+    .quote {
+        font-size: 1.5rem;
+    }
+    
+    .image-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .Person1, .Person2, .Person3, .Person4, .Person5 {
+        width: 80px;
+        height: auto;
+        position: static;
+    }
+}
+
+  
+  

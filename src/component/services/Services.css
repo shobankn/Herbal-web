@@ -1,0 +1,119 @@
+.services-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(180deg, rgba(81, 156, 12, 0.12) 0%, rgba(255, 255, 255, 0.12) 100%);
+
+  }
+  
+  .services-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #18467F;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+  
+  /* Responsive Text */
+  .services-description {
+    font-size: 18px;
+    color: #18467F;
+    margin-bottom: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 151%;
+    text-align: center;
+    padding: 0 200px; /* Default large screen padding */
+    margin-bottom: 80px;
+  }
+  
+  /* ✅ Responsive Adjustments */
+  @media (max-width: 1200px) {
+    .services-description {
+      padding: 0 150px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .services-description {
+      padding: 0 100px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .services-title {
+      font-size: 32px; /* Reduce title size */
+
+    }
+    .services-description {
+      font-size: 16px; /* Adjust text size */
+      padding: 0 50px; /* Adjust padding */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .services-title {
+      font-size: 28px; /* Further reduce for small screens */
+    }
+    .services-description {
+      font-size: 14px; /* Reduce text size */
+      padding: 0 20px; /* Minimized padding */
+    }
+  }
+  
+  .service-card {
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    gap: 10px;
+    text-align: left;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .icon-wrapper img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .service-card h4 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 121%;
+    color: #333333;
+    font-family: "Roboto";
+  }
+  
+  .service-card p {
+    font-family: "Roboto";
+    font-weight: 400px;
+    line-height: 151%;
+    font-size: 16px;
+    color: #4D4D4D;
+    flex-grow: 1;
+    text-align: justify;
+  }
+  
+  .btn-success1 {
+    width: 192px;
+    width : 193px;
+    border-radius: 12px;
+    padding : 14px 24px;
+    font-weight: bold;
+    background-color:  #519C0C;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: 500px;
+    font-size: 14px;
+
+  }
+  

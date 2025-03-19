@@ -1,0 +1,212 @@
+.aboutGradient {
+    background: linear-gradient(180deg, rgba(81, 156, 12, 0.12) 0%, rgba(255, 255, 255, 0.12) 100%);
+  }
+
+  .aboutHeading{
+    font-family: "Roboto";
+    color:rgba(24, 70, 127, 1);
+    font-weight: 600px;
+    size: 48px !important;
+}
+.nicesubtext{
+    font-family: "Roboto", sans-serif !important;
+    color:rgba(24, 70, 127, 1);
+    font-weight: 600px;
+    size: 48px !important;
+}
+
+.subtext{
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 400px !important;
+    size:20px !important;
+    line-height: 30px;
+    color: rgba(24, 70, 127, 1) !important;
+}
+
+  .plant-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+  }
+
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .aboutHeading {
+      font-size: 32px !important;
+    }
+    .subtext {
+      font-size: 18px !important;
+    }
+  }
+
+  .plant-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+  }
+
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 992px) {
+    .aboutHeading {
+      font-size: 36px !important;
+  
+
+      }
+      .verticalLine{
+        display: none;
+      }
+    }
+    .subtext {
+      font-size: 18px !important;
+    }
+    .col-lg-10 {
+      margin-left: 0 !important;
+    }
+  
+
+  @media (max-width: 768px) {
+    .aboutHeading {
+      font-size: 28px !important;
+    }
+    .subtext {
+      font-size: 16px !important;
+      line-height: 28px;
+    }
+  }
+
+
+  .mainimage{
+    width:400px;
+    height:auto;
+    border-radius: 16px;
+  }
+
+  .hrline{
+    background: rgba(167, 201, 87, 0.24); /* #A7C957 with 24% opacity */
+    backdrop-filter: blur(8px); /* Adjust blur intensity */
+    -webkit-backdrop-filter: blur(8px); /* Safari support */
+    padding: 30px 0px;
+    border: none;
+  }
+
+  /* module 2 */
+  /* .who-we-are {
+    background: linear-gradient(180deg, rgba(81, 156, 12, 0.12) 0%, rgba(255, 255, 255, 0.12) 100%);
+    padding: 60px 20px;
+  } */
+  
+  .who-title {
+    color: #18467F;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+  }
+  
+  .who-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
+  }
+  .verticalLine{
+    position: relative;
+    top:124px;
+    right:20px;
+  }
+  
+  .icon-img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .icon-text {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 992px) {
+    .who-title {
+      font-size: 28px;
+    }
+    .who-text {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .who-we-are {
+      text-align: center;
+    }
+    .icon-img {
+      width: 40px;
+      height: 40px;
+    }
+    .icon-text {
+      font-size: 14px;
+    }
+  }
+
+
+  /* module 3 */
+  .our-mission-section {
+    padding: 60px 20px;
+  }
+  
+  .mission-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #18467F;
+    margin-bottom: 10px;
+    font-family: "Roboto";
+  }
+  
+  .mission-text {
+    font-size: 18px;
+    color: #333333;
+    line-height: 30px;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    font-family: "Roboto";
+  }
+  
+  .mission-image-container img {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 12px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .mission-heading {
+      font-size: 28px;
+    }
+  
+    .mission-text {
+      font-size: 16px;
+      padding: 0 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .mission-heading {
+      font-size: 24px;
+    }
+  
+    .mission-text {
+      font-size: 14px;
+    }
+  }
+  
