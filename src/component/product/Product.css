@@ -1,0 +1,107 @@
+.main-container{
+    background: linear-gradient(180deg, rgba(81, 156, 12, 0.12) 0%, rgba(247, 247, 247, 0.12) 100%);
+}
+
+.product-title{
+font-size: calc(1.8rem + 1vw);
+color: #18467F;
+font-size: 48px;
+font-weight: 600px;
+font-family: "Roboto";
+text-align: center;
+}
+
+.product-sub-text{
+    color: #4D4D4D;
+    font-size: 15px;
+    font-weight: 500px;
+    font-family: "Roboto"; 
+}
+
+.product-btn{
+    color:#FFFFFF;
+    font-size: 15px;
+    font-weight: 500px;
+    font-family: "Roboto"; 
+    background-color: #519C0C;
+    border: none;
+    border-radius: 62px;
+    padding: 14px 24px;
+
+}
+
+.product-btn2{
+    font-weight: 500px;
+    font-family: "Roboto"; 
+    background-color:  #519C0C1F;
+    color: #519C0C;
+    border: 1px solid #519C0C;
+    border-radius: 62px;
+    padding: 14px 24px;
+}
+
+.health-review{
+    font-size: 32px;
+    font-weight: 500px;
+    font-family: "Roboto"; 
+    line-height: 130%;
+    color: #18467F;
+    text-align: center;
+}
+ 
+
+.card-title{
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: "Roboto"; 
+    line-height: 121%;
+    color: #18467F;
+    
+}
+
+.card-sub-text{
+    font-size: 12px;
+    font-weight: 400px;
+    font-family: "Roboto"; 
+    line-height: 151%;
+    color: #4D4D4D;
+    text-align: justify;
+    
+}
+
+.card-button{
+    background: #519C0C29;
+    color: #519C0C;
+    font-family: "Roboto";
+    font-weight: 500px;
+    font-size: 16;
+    line-height: 150%;
+    padding:14px 24px;
+    border-radius: 62px;
+    width: 120px;
+    height: 50px;
+    border: none;
+
+}
+.card-button:hover{
+    background-color:#519C0C ;
+    color:white;
+    
+}
+.product-card{
+    box-shadow: 0px 2px 16px 0px #0000001F;
+    padding:20px 16px;
+    gap:10px;
+    background-color:  #FFFFFF;
+    border-radius: 40px;
+    transition: all 0.3s ease-in-out;
+
+}
+.product-card:hover{
+transform: translateY(-12px);
+
+}
+
+
+
+

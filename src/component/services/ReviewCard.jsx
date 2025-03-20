@@ -69,7 +69,7 @@ const ReviewCard = () => {
     if (width < 768) {
       newCardsPerSlide = 1;
     } else if (width < 992) {
-      newCardsPerSlide = 2;
+      newCardsPerSlide = 1;
     }
 
     if (newCardsPerSlide !== cardsPerSlide) {
@@ -91,16 +91,16 @@ const ReviewCard = () => {
     }
 
     if (carouselRef.current) {
-      carouselInstanceRef.current = new window.bootstrap.Carousel(carouselRef.current, { interval: 4000 });
+      carouselInstanceRef.current = new window.bootstrap.Carousel(carouselRef.current, { interval: 2000 });
     }
   }, [cardsPerSlide, key]); // Re-initialize carousel when layout changes
 
   return (
-    <div className="container-fluid py-5">
+    <div className="container-fluid py-5 my-5">
       <div className="text-center mb-4">
         <h2 className="title">What Our Patients Say</h2>
         <p className="w-50 mx-auto sub-text">
-          When you need us for improving your business, come to us and reach your goals.
+        When you need us for improve your business, then come us to help us to help your then come have reach it, you just sit and feel that goal
         </p>
       </div>
 

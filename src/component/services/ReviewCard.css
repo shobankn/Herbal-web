@@ -78,7 +78,7 @@
   /* Ensures three cards on large screens (≥ 992px) */
 @media (min-width: 992px) {
   .testimonial-wrapper {
-    flex: 0 0 33.33%; /* Each card takes 1/3 of the row */
+     flex: 0 0 33.33%; /* Each card takes 1/3 of the row */
     max-width: 33.33%;
   }
 }

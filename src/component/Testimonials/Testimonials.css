@@ -1,0 +1,224 @@
+.contact-form-container {
+    /* max-width: 1200px; */
+    width: 100%;
+    margin: 0 auto;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+     */
+    background: linear-gradient(180deg, rgba(81, 156, 12, 0.12) 0%, rgba(255, 255, 255, 0.12) 100%);
+
+    overflow: hidden;
+  }
+  
+  .form-content {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .form-section {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(180deg, rgba(81, 156, 12, 0.12) 0%, rgba(255, 255, 255, 0.12) 100%); */
+
+  }
+  
+  .contact-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .contact-title {
+    color: #18467F;
+    font-weight: 600px !important;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-family: "Roboto";
+  }
+  
+  .phone-icon {
+    display: inline-flex;
+    margin-right: 10px;
+    color: #18467F;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .contact-subtitle {
+    color: #475467;
+    font-family: "Roboto";
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #2d3748;
+    font-weight: 500;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #4a5568;
+    background-color: #fff;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+  }
+  
+  .phone-input-container {
+    display: flex;
+  }
+  
+  .country-select {
+    position: relative;
+    width: 80px;
+    margin-right: 10px;
+  }
+  
+  .country-select select {
+    appearance: none;
+    padding-right: 24px;
+    background-color: #f8f9fa;
+  }
+  
+  .dropdown-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 10px;
+    color: #718096;
+  }
+  
+  .form-check {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+  }
+  
+  .form-check input {
+    width: auto;
+    margin-right: 10px;
+    margin-top: 4px;
+  }
+  
+  .form-check label {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .privacy-link {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .privacy-link:hover {
+    text-decoration: underline;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #43a047;
+  }
+  
+  .submit-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.3);
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 992px) {
+    .form-content {
+      flex-direction: column-reverse;
+    }
+    
+    .image-section {
+      min-height: 200px;
+      padding: 20px;
+    }
+    
+    .contact-image {
+      max-height: 300px;
+      object-fit: contain;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .form-section {
+      padding: 30px 20px;
+    }
+    
+    .form-row {
+      flex-direction: column;
+      gap: 0;
+    }
+    
+    .contact-title {
+      font-size: 22px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .form-section {
+      padding: 20px 15px;
+    }
+    
+    .contact-title {
+      font-size: 20px;
+    }
+    
+    .contact-subtitle {
+      font-size: 14px;
+    }
+    
+    input, textarea, select {
+      font-size: 14px;
+    }
+  }

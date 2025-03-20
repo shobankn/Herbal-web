@@ -174,7 +174,9 @@
   
   
   @media (max-width: 800px ) {
-   
+   .navbar-container{
+    /* justify-content: space-between; */
+   }
     .navbar-toggler {
       display: block;
       margin-right: -70%;

@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import './Navbar.css';
-import { Link, useLocation } from 'react-router-dom';
+import { Link,  useLocation, useNavigate } from 'react-router-dom';
 import logo from '../../images/logo.png';
 
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
 
   return (
     <>
@@ -37,14 +38,17 @@ const NavBar = () => {
               <Link to="/services" className={`nav-item ${location.pathname === "/services" ? "active" : ""}`}>Services</Link>
             </li>
             <li>
-              <Link to="/our-team" className={`nav-item ${location.pathname === "/our-team" ? "active" : ""}`}>Testimonials</Link>
+              <Link to="/Product" className={`nav-item ${location.pathname === "/Product" ? "active" : ""}`}>Products</Link>
             </li>
            
           </ul>
         </div>
 
         <div className="d-flex">
-          <button className="nav-buton">Contact us</button>
+        <button 
+    className="nav-buton"  
+    onClick={() => navigate("/testimonials")}
+  >Contact us</button>
         </div>
       </div>
     </>
